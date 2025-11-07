@@ -1,11 +1,11 @@
 {
-  "name": "node-thermal-printer",
+  "name": "@inc/node-thermal-printer",
   "version": "4.5.0",
   "description": "Print on Epson, Star, Tranca, Daruma, Brother and Custom thermal printers with Node.js",
   "main": "node-thermal-printer.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Klemen1337/node-thermal-printer"
+    "url": "https://github.com/Squall966/node-thermal-printer"
   },
   "keywords": [
     "thermal printer",
@@ -18,12 +18,16 @@
     "brother",
     "custom"
   ],
-  "author": "Klemen Kastelic <klemen.kast@gmail.com> (http://kastelic.net/)",
+  "author": "Klemen Kastelic <klemen.kast@gmail.com> (http://kastelic.net/) || Forked by Squall966 <",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Klemen1337/node-thermal-printer/issues"
+    "url": "https://github.com/Squall966/node-thermal-printer/issues"
   },
-  "homepage": "https://github.com/Klemen1337/node-thermal-printer",
+  "homepage": "https://github.com/Squall966/node-thermal-printer",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
+  },
   "dependencies": {
     "iconv-lite": "0.6.3",
     "pngjs": "7.0.0",
